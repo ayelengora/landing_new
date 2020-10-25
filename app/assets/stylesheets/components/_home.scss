@@ -1,0 +1,92 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 55px;
+  font-weight: bold;
+}
+.banner h3 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.btn-flat {
+  color: #e24c4c;
+  border: 3px solid #9e3030;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-size: larger;
+  opacity: 0.7;
+  transition: opacity 0.6s ease;
+  margin-top: 10px;
+}
+
+.btn-flat:hover {
+  opacity: 1;
+  color: white;
+}
+
+
+.box-with-humber .number-behind {
+    font-size: 8rem;
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    left: -3rem;
+    font-weight: 900;
+    color: #9e3030;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.text-title{
+  color: #9e3030;
+}
+
+.ul-check li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color:rgb(95, 23, 18);
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.number-behind{
+  display: block;
+}
+.fa-asterisk  {
+    position: absolute;
+    left: -3rem;
+    font-size: 5rem;
+    font-weight: 900;
+    color:rgb(247, 213, 213)
+}
+
+.title {
+  text-shadow: 3px blue;
+}
