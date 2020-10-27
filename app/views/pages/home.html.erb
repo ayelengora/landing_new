@@ -8,90 +8,109 @@
     </div>
   </div>
 </div>
-<section  class="site-section m-4 p-5 bg-light shadow-sm p-3 mb-5 bg-white rounded">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="px-5 py-2 box-with-humber">
-              <div class="number-behind"></div>
-              <h2 class="text-title"><i class="fas fa-asterisk"></i> Innovar</h2>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-              <ul class="list-unstyled ul-check primary">
-                <li><i class="fas fa-check"></i> Assesments grupales</li>
-                <li><i class="fas fa-check"></i> Gestion de producto</li>
-                <li><i class="fas fa-check"></i> Prueba de concepto</li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="col-md-6 col-lg-4">
-            <div class="px-5 py-2 box-with-humber">
-              <div class="number-behind">*</div>
-              <h2 class="text-title"><i class="fas fa-asterisk"></i> Gestionar </h2>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-              <ul class="list-unstyled ul-check primary">
-                <li><i class="fas fa-check"></i> Web Design</li>
-                <li><i class="fas fa-check"></i> Marca</li>
-                <li><i class="fas fa-check"></i> Desarrollo web y de aplicaciones</li>
-              </ul>
-            </div>
+<%# nuestros servicios %>
+<section  class="site-section m-4 shadow-sm p-3 mb-5 bg-white rounded">
+  <div class="container">
+    <div class="text-center pb-4 font-weight-bol">
+      <h2>Nuestros Sevicios</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <div class="row p-3 py-2">
+          <div class="col-md-3 col-lg-3 p-2">
+            <%= cl_image_tag("busqueda.svg", :effect=>"opacity_threshold:100", :width=>120, :crop=>"scale") %>
           </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="px-5 py-2 box-with-humber">
-              <div class="number-behind">*</div>
-              <h2 class="text-title"><i class="fas fa-asterisk "></i> Escalar</h2>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-              <ul class="list-unstyled ul-check primary">
-                <li><i class="fas fa-check"></i> Social Media</li>
-                <li><i class="fas fa-check"></i> Campañas pagas</li>
-                <li><i class="fas fa-check"></i> Marketing y SEO</li>
-              </ul>
-            </div>
+          <div class="col-md-9 col-lg-9 p-2">
+            <h2 class="text-title"> Talento a demanda </h2>
+            <p class="mb-4">Conocemos la importancia del talento humano para el desarrollo de las organizaciones y con este servicio te garantizamos el hallazgo de esa persona que estás buscando.Manejamos el proceso completo de reclutamiento, búsqueda y selección. Desde ayudarte a definir el perfil, la búsqueda en las mejores bases del país y en medios digitales, las entrevistas llevadas a cabo por psicólogos especializados en evaluación de softs skills y variables conductuales, hasta el asesoramiento en la elección final sobre la terna sobresaliente </p>
           </div>
         </div>
       </div>
-    </section>
- 
-  <%# nuestros servicios %>
 
-<div id="servicios" class="container mb-5">
+      <div class="col-md-6 col-lg-6">
+        <div class="row p-3 py-2">
+          <div class="col-md-3 col-lg-3 p-2">
+            <%= cl_image_tag("objetivo.png", :width=>120, :crop=>"scale") %>
+          </div>
+        <div class="col-md-9 col-lg-9">
+          <h2 class="text-title"> Head Hunting </h2>
+          <p class="mb-4">Si una compañía tiene éxito es porque cuenta con profesionales capaces de liderar un proyecto. Una metodología diferente con respecto a los procesos de selección tradicionales, enfocada en puestos directivos, gerenciales o cargos estratégicos. Este tipo de servicio tiene como objetivo evaluar, no solamente las competencias clásicas que destacan a un candidato, sino también que los valores y visión de la compañía estén alineados. </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <div class="row py-2 p-3">
+          <div class="col-md-3 col-lg-3 p-2">
+            <%= cl_image_tag("logro_tbp88y.png", :width=>110, :crop=>"scale")%>
+          </div>
+          <div class="col-md-9 col-lg-9 p-2">
+            <h2 class="text-title"> Evaluación de potencial </h2>
+            <p class="mb-4">Si necesitas valorar los recursos, capacidades, competencias y aptitudes de tus candidatos internos para que ocupen nuevas posiciones, te ayudamos a hacerlo. El resultado de esta evaluación de potencial te permitirá definir las estrategias a utilizar para desarrollar el talento humano con la que tu organización ya cuenta.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-6">
+        <div class="row py-2 p-3">
+          <div class="col-md-3 col-lg-3 p-2">
+            <%= cl_image_tag("cv_jzlmxk.png", :width=>110, :crop=>"scale")%>
+          </div>
+          <div class="col-md-9 col-lg-9 p-2">
+            <h2 class="text-title"> Evaluación Psicotécnica </h2>
+            <p class="mb-4"> Llevada a cabo por nuestros psicólogos especializados, una evaluación psicotécnica te permitirá conocer objetivamente capacidades y aptitudes del candidato mediante una entrevista psicológica profunda y la administración de tests psicométricos y proyectivos. Junto con la entrega del informe confeccionado por el profesional matriculado, te brindamos asesoría por cualquier duda que pueda surgirte.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%# quienes somos %>
+<div id="nosotros" class="site-section my-5 " id="about-section">
+  <div class="container  align-item-center  shadow p-5 mb-5 bg-dark rounded ">
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="text-center pb-4">
+          <h2 class="text-white h1 site-section-heading">¿Quienes Somos?</h2>
+        </div>
+      </div>
+      <div class="col-md-5 ml-auto mb-5 order-md-2  " data-aos="fade">
+        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Image" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6 order-md-1 aos-init aos-animate" data-aos="fade">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <p class="lead text-white">Somos una empresa joven con la misión de brindar un servicio completo de consultoría en talento humano.El proyecto nació como una solución para satisfacer las necesidades de las organizaciones en los nuevos tiempos que maneja el mercado. Nuestro servicio de excelente calidad, en tiempos acotados y al mejor precio del mercado es lo que nos diferencia de la competencia. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <%# por que elegirnos %>
+
+<div id="servicios" class="container p-5 shadow-sm p-3 mb-5 bg-white rounded">
   <div class="row align-items-stretch ">
-    <div class="col-12 bg-dark w-100 ft-feature-1-content px-5 py-4">
-      <div class="text-center pb-4 text-light font-weight-bol">
-        <h2>Nuestros Sevicios</h2>
+    <div class="col-12 w-100 px-5 py-4">
+      <div class="text-center pb-4 text-black font-weight-bol">
+        <h2>¿Por qué elegirnos? </h2>
       </div>
       <div class="row align-items-center">
 
-        <div class="col-lg-5">
+        <div class="col-lg-6">
           
             <img src="https://images.unsplash.com/photo-1488998527040-85054a85150e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Image" class="img-fluid mb-4 mb-lg-0">
           
         </div>
-        <div class="col-lg-3 ml-auto">
+        <div class="col-lg-6 ml-auto">
           <div class="mb-5">
-            <h3 class="d-flex align-items-center text-white"><span class="icon icon-beach_access mr-2"></span><span>Estrategia</span></h3>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-          </div>
-
-          <div>
-            <h3 class="d-flex align-items-center text-white"><span class="icon icon-build mr-2"></span><span>Dirección</span></h3>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-            
-          </div>
-
-        </div>
-        <div class="col-lg-3">
-          <div class="mb-5">
-            <h3 class="d-flex align-items-center text-white"><span class="icon icon-format_paint mr-2"></span><span>Desarrollo Web</span></h3>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-            
-          </div>
-
-          <div>
-            <h3 class="d-flex align-items-center text-white"><span class="icon icon-question_answer mr-2"></span><span>Redacción</span></h3>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-            
+            <p class="text-black">Nuestro secreto es nuestra gigantesca y actualizada base de datos junto con la amplia experiencia de nuestros profesionales. Rápidamente podemos encontrar desde perfiles operativos hasta puestos estratégicos en tiempos record, siempre manteniendo nuestro estándar de calidad de excelencia.  La combinación de nuestros profesionales con sólidas carreras en búsqueda de talento y la mejor base de datos del país nos hacen la opción perfecta para convertirnos en los socios estratégicos que tu empresa necesita. No dudes en contactarnos ante cualquier consulta! </p>
           </div>
         </div>
       </div>
@@ -99,55 +118,7 @@
   </div>
 </div>
  
- <%# Sobre Nosotros %>
-
-
-<div id="nosotros" class="site-section my-5 " id="about-section">
-      <div class="container  align-item-center  shadow p-3 mb-5 bg-white rounded p-5 ">
-        <div class="row mb-5">
-          
-              <div class="col-12">
-                <div class="text-center pb-4">
-                  <h2 class="text-black h1 site-section-heading">Sobre nosotros</h2>
-                </div>
-              </div>
-          <div class="col-md-5 ml-auto mb-5 order-md-2  " data-aos="fade">
-            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Image" class="img-fluid rounded">
-          </div>
-          <div class="col-md-6 order-md-1 aos-init aos-animate" data-aos="fade">
-
-            <div class="row">
-
-              <div class="col-12 mb-4">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet incidunt magnam corrupti, odit eos harum quaerat nostrum voluptatibus aspernatur eligendi accusantium cum, impedit blanditiis voluptate commodi doloribus, nemo dignissimos recusandae.</p>
-              </div>
-              <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-phonelink"></span></div>
-                  <div>
-                    <h3>Especialidades web y móviles</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-extension"></span></div>
-                  <div>
-                    <h3>Pensadores intuitivos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-
+ 
 <section class="site-section p-5" id="contact-section">
       <div id="contacto" class="container-fluid align-items-stretchcol-12 bg-light w-100 ft-feature-1-content px-5 py-4  p-5 shadow-sm p-3 mb-5 bg-light rounded">
         <div class="row  mb-5">
@@ -214,7 +185,7 @@
               <p class="mb-4">Devoto, Buenos Aires Argentina</p>
 
               <p class="mb-0 font-weight-bold">Telefono</p>
-              <p class="mb-4"><a href="#">+54 9 11 45661-3251</a></p>
+              <p class="mb-4"><a href="#">011-15-4038-7291</a></p>
 
               <p class="mb-0 font-weight-bold">Dirección</p>
               <p class="mb-0"><a href="#">info@viewtalent.com</a></p>

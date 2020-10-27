@@ -26,8 +26,8 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 .btn-flat {
-  color: #e24c4c;
-  border: 3px solid #9e3030;
+  color: white;
+  border: 5px solid #d13c3c;;
   padding: 8px 24px;
   border-radius: 50px;
   font-weight: bolder;
@@ -38,8 +38,10 @@
 }
 
 .btn-flat:hover {
-  opacity: 1;
-  color: white;
+  opacity: 0.7;
+  color: #d13c3c;
+  border: 5px solid white;
+  transition: 0.4ms;
 }
 
 
@@ -52,11 +54,7 @@
     font-weight: 900;
     color: #9e3030;
 }
-*, :after, :before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-user agent stylesheet
+
 div {
     display: block;
 }
@@ -65,20 +63,7 @@ div {
   color: #9e3030;
 }
 
-.ul-check li {
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 15px;
-    line-height: 1.5;
-    color:rgb(95, 23, 18);
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-.number-behind{
-  display: block;
-}
+
 .fa-asterisk  {
     position: absolute;
     left: -3rem;
