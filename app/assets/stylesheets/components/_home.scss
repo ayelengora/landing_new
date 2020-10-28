@@ -45,20 +45,6 @@
 }
 
 
-.box-with-humber .number-behind {
-    font-size: 8rem;
-    position: absolute;
-    z-index: -1;
-    top: -4rem;
-    left: -3rem;
-    font-weight: 900;
-    color: #9e3030;
-}
-
-div {
-    display: block;
-}
-
 .text-title{
   color: #9e3030;
 }
@@ -74,4 +60,9 @@ div {
 
 .title {
   text-shadow: 3px blue;
+}
+
+h2{
+  font-size: 2.5rem;
+  opacity: 0.5;
 }
