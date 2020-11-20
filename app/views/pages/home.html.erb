@@ -1,8 +1,8 @@
 <%= render 'shared/navbar' %>
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);">
   <div class="container">
-    <div class="text-center">
-      <h1 class="title">ViewTalent</h1> 
+    <div class="text-center p-lg-4">
+      <h1 class="title"><strong>ViewTalent<strong></h1> 
       <h3 class="title mt-1">Talento a demanda!</h3>
       <%= link_to "Contactanos", "#contacto", class: "btn btn-flat  btn-rounded waves-effect mt-4" %>
     </div>
@@ -46,14 +46,14 @@
             <%= cl_image_tag("logro_tbp88y.png", :width=>110, :crop=>"scale")%>
           </div>
           <div class="col-md-9 col-lg-9 p-2">
-            <h3 class="text-title "> Evaluación de potencial </h3>
+            <h3 class="text-title"> Evaluación de potencial </h3>
             <p class="mb-4 text-justify">Si necesitas valorar los recursos, capacidades, competencias y aptitudes de tus candidatos internos para que ocupen nuevas posiciones, te ayudamos a hacerlo. El resultado de esta evaluación de potencial te permitirá definir las estrategias a utilizar para desarrollar el talento humano con la que tu organización ya cuenta.</p>
           </div>
         </div>
       </div>
 
       <div class="col-md-6 col-lg-6">
-        <div class="row  p-3 py2">
+        <div class="row  p-3 py-2">
           <div class="align-items-sm-center col-md-3 col-lg-3 p-2">
             <%= cl_image_tag("cv_jzlmxk.png", :width=>110, :crop=>"scale")%>
           </div>
@@ -117,67 +117,78 @@
     </div>
   </div>
 </div>
- 
- 
-<section class="site-section p-sm-2 p-lg-5" id="contact-section">
+
+
+
+
+ <section class="site-section p-sm-2 p-lg-5" id="contact-section">
       <div id="contacto" class="container-fluid align-items-stretchcol-12 bg-light w-100 ft-feature-1-content px-5 py-4  p-5 shadow-sm p-3 mb-5 bg-light rounded">
-        <div class="row  mb-5">
+        <div class="row">
           <div class="col-12 text-center ">
             <h2 class="text-black h1 site-section-heading text-large">Contáctanos</h2>
           </div>
         </div>
         <div class="row">
+<<<<<<< HEAD
           <div class="col-md-7 mb-5">
             <form  action="mailto:hola@viewtalent.com.ar" method="post" enctype="text/plain" class="p-sm-1 p-md-4 p-lg-5 bg-light">
               
               <h2 class="h4 text-black mb-5">Formulario de contacto</h2> 
 
+=======
+          <div class="col-md-7 mb-5 p-lg-5">
+            <form  action="https://formspree.io/f/mvovqdjb" method="POST" class="p-sm-1 p-md- bg-light">
+>>>>>>> mail
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">Nombre</label>
-                  <input type="text" id="fname" class="form-control rounded-pill">
+                  <label class="text-black">
+                    Nombre:
+                    <input type="text" name="name" class="form-control rounded-pill">
+                  </label>
                 </div>
                 <div class="col-md-6">
-                  <label class="text-black" for="lname">Apellido</label>
-                  <input type="text" id="lname" class="form-control rounded-pill">
+                  <label class="text-black">
+                    Apellido
+                    <input type="text" name="name" class="form-control rounded-pill">
+                  </label>
                 </div>
               </div>
-
+              
               <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Correo electrónico</label> 
-                  <input type="email" id="email" class="form-control rounded-pill">
+                <div class="col-md-6">
+                  <label>
+                    Email:
+                    <input type="text" name="_replyto" id="email" class="form-control rounded-pill">
+                  </label>
                 </div>
-              </div>
-
+                <div class="col-md-6">
+                  <label class="text-black">
+                    Asunto
+                    <input type="text" name="asunto" class="form-control rounded-pill">
+                  </label>
+                </div>
+              </div> 
               <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Asunto</label> 
-                  <input type="subject" id="subject" class="form-control rounded-pill">
+                <div class="col-12">
+                  <label>
+                    Mensaje:
+                     
+                    <textarea name="message" id="message" cols="60" rows="10" class="form-control rounded" placeholder="Envié su consulta aquí..."></textarea>
+                  </label>
                 </div>
-              </div>
+              </div> 
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Mensaje</label> 
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded" placeholder="Envié su consulta aquí..."></textarea>
-                </div>
-              </div>
+            <!-- your other form fields go here -->
+          <div class="col-md-12class">
+          
+            <button type="submit" class="btn btn-outline-dark btn-lg">Enviar</button>
+          </div>
+          </form>
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Enviar" class="btn btn-outline-dark btn-lg">
-                </div>
-              </div>
-
-  
-            </form>
           </div>
           <div class="col-md-5  d-flex align-items-center">
             
-            <div class="p-4 mb-3 bg-light">
+            <div class="p-2 mb-3 bg-light">
             
 
               <p class="mb-0 font-weight-bold">Telefono</p>
@@ -191,5 +202,6 @@
           </div>
         </div>
       </div>
-    </section>
+   </section>
+ 
     <%= render 'shared/footer' %>
