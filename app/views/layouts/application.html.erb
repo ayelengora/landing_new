@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>LandingNew</title>
+  <head>    
+    <title>ViewTalent - Talento a demanda!</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <meta name="description" content="View talent es una consultora de RRHH">
+    <meta charset="utf-8">
+    <%= favicon_link_tag %>
+    <link rel=”shortcut icon” type=”image/png” href=”/favicon.png”/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
-
   <body>
-    <%= yield %>
+    <%= render 'shared/navbar' %>
+  <div class="min-vh-100 w-100 d-flex flex-column">
+  
+    <div class="wrapper">
+      <%= yield %>
+    </div>
+    <%= render 'shared/footer' %>
+  </div>
   </body>
 </html>
